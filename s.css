@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    background-color: red;
+}
+.container .row{
+    margin-bottom: 25px;
+}
+.container .row .item img{
+    height: 150px;
+    width: 150px;
+    transition: 0.5s ease;
+}
+
+.container .row .item img:hover{
+    transform: scale(1.1);
+}
+
+.container .row .item{
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.container .row .item,input,label{
+    text-align: center;
+    margin: 5px;
+}
+
+.container .row .add{
+    width: 80px;
+    height: 30px;
+    color: rgb(44, 44, 44);
+    background-color: rgb(0, 124, 232);
+    border: none;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.container .row .add:active{
+    background-color: rgb(0, 211, 0);
+}
+
+
+.top {
+    background-color: grey;
+    display: flex;
+    justify-content: end;
+}
+
+.pngcart {
+    margin-right: 30px;
+    transition: 0.5s ease;
+}
+
+.pngcart:hover {
+    transform: scale(1.1);
+}
+
+.item{
+    background-color: white;
+    padding: 30px;
+}
+
+.top-image img{
+    width: 100%;
+    height: 710px;
+    margin: 0;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.top-image p{
+    position: absolute;
+    left: 300px;
+    top: 180px;
+    font-size: 1.5cm;
+}
+
+.top-image p input{
+    position: absolute;
+    left: 325px;
+    top: 80px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: large;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 0.5s;
+}
+
+.top-image p input:hover{
+    transform: scale(1.2);
+}
+
+
+

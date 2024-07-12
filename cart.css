@@ -1,0 +1,106 @@
+.top{
+    background-color: rgb(185, 185, 185);
+    display: flex;
+    justify-content: end;
+}
+.pngcart{
+    margin-right: 30px;
+    transition: 0.5s ease;
+    padding: 10px;
+}
+.pngcart:hover{
+    transform: scale(1.1);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(185, 185, 185);
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+.tab{
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(212, 212, 212);
+}
+
+.tab table{
+    width: 1000px;
+    border: none;
+}
+
+.tab table td,th{
+    border: none;
+    padding: 20px;
+}
+
+.tab table th,td{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+
+.container{
+    background-color: rgb(185, 185, 185);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.total{
+    margin-top: 20px;
+    background-color: rgb(212, 212, 212);
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
+    height: 200px;
+}
+
+.total p{
+    font-size: 1cm;
+    font-weight: bold;
+}
+
+.total label{
+    font-size: larger;
+}
+.total input{
+    width: 280px;
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 1rem;
+    padding: 7px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(185, 185, 185);
+    padding-top: 15px;
+}
+
+.delete{
+    text-decoration: none;
+    color: red;
+}
+
+.delete:active{
+    color: green;
+}
+
+.update{
+    background-color: green;
+    padding: 8px;
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
